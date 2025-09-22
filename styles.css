@@ -30,7 +30,7 @@ body {
 
         input {
             height: 30px;
-            padding: 3px;
+            padding-left: 5px;
         }
 
         button {
@@ -43,12 +43,18 @@ body {
             border: none;
             border-radius: 5px;
         }
+         #add:hover{
+             background-color: rgb(9, 203, 9);
+         }
 
         #dlt {
-            background-color: red;
+            background-color: rgb(6, 145, 106);
             color: white;
             border: none;
             border-radius: 5px;
+        }
+        #dlt:hover{
+            background-color: rgb(10, 229, 178);
         }
     }
 
