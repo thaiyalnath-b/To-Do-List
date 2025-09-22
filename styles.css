@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle,
+            rgba(238, 174, 202, 1) 0%,
+            rgba(148, 187, 233, 1) 100%);
+
+    .Card {
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        width: 500px;
+    }
+
+    .inp {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            height: 30px;
+            padding: 3px;
+        }
+
+        button {
+            padding: 5px;
+        }
+
+        #add {
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #dlt {
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
+
+    li {
+        background: #f5d8d8;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dltt {
+        background-color: red;
+        height: 30px;
+        padding: 5px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+}
